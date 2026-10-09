@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F7F8F2;
+    color: #112218;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.lab-grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(23, 77, 53, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(23, 77, 53, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+

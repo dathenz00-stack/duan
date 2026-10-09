@@ -1,0 +1,6 @@
+{
+  "name": "SMART BIO-TRAP — Hệ thống lọc nước sinh học tuần hoàn 3D",
+  "description": "Trải nghiệm khám phá sản phẩm 3D tương tác cho hệ thống lọc nước thông minh sử dụng vật liệu sinh học tuần hoàn từ keratin tóc, khung cellulose xơ mướp và vật liệu kép bio-composite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
